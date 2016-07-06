@@ -1,0 +1,8 @@
+gogs:
+    restart: always
+    image: gogs/gogs:latest
+    port:
+    - 10080:3000
+    - 10022:2222
+    volumes:
+    - /docker/volumes/gogs:/data:rw

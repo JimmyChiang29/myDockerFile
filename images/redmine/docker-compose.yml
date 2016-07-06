@@ -1,0 +1,32 @@
+redmine:
+  environment:
+    - TZ=Asia/Shanghai
+    - SMTP_DOMAIN=globalwinner.com
+    - SMTP_HOST=smtp.exmail.qq.com
+    - SMTP_PORT=465
+    - SMTP_USER=it@globalwinner.com
+    - SMTP_PASS=Hqyj123
+    - SMTP_TLS=true
+    - IMAP_ENABLED=true
+    - IMAP_USER=it@globalwinner.com
+    - IMAP_PASS=Hqyj123
+    - IMAP_HOST=imap.exmail.qq.com
+    - IMAP_PORT=993
+    - IMAP_SSL=true
+    - DB_ADAPTER=mysql2
+    - DB_HOST=rm-bp1x8w5udfkm3543r.mysql.rds.aliyuncs.com
+    - DB_NAME=redmine
+    - DB_USER=redmine
+    - DB_PASS=Hqyj2016
+  expose:
+    - 80/tcp
+  image: 'sameersbn/redmine:3.2.1-6'
+  labels:
+    aliyun.routing.port_80: 'http://redmine.globalwinner.com.cn/'
+    aliyun.scale: '1'
+  restart: always
+  volumes:
+    - '/docker/volumes/redmine/data:/home/redmine/redmine/data:rw'
+    - '/docker/volumes/redmine/files:/home/redmine/redmine/files:rw'
+    - '/docker/volumes/redmine/plugins:/home/redmine/redmine/plugins:rw'
+    - '/git:/home/redmine/redmine/git:rw'

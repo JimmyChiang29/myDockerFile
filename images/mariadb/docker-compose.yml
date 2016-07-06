@@ -1,0 +1,6 @@
+maraidb:
+    image: 'mariadb:latest'
+    expose: '3306:3306'
+    hostname: 'mysql'
+    environment:
+        - MYSQL_ROOT_PASSWORD:jk19890209
