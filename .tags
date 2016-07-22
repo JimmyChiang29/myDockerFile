@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Gitlab 配置与安装	/Users/Jimmy/Workplace/git/myDockerFile/images/gitlab/README.md	/^# Gitlab 配置与安装$/;"	function	line:1
+下载印象	/Users/Jimmy/Workplace/git/myDockerFile/images/gitlab/README.md	/^## 下载印象$/;"	function	line:3
+Image	/Users/Jimmy/Workplace/git/myDockerFile/images/gitlab/README.md	/^### Image$/;"	function	line:5
+启动方式	/Users/Jimmy/Workplace/git/myDockerFile/images/gitlab/README.md	/^### 启动方式$/;"	function	line:11
+Volumes 目录	/Users/Jimmy/Workplace/git/myDockerFile/images/gitlab/README.md	/^### Volumes 目录$/;"	function	line:17
+修改配置档	/Users/Jimmy/Workplace/git/myDockerFile/images/gitlab/README.md	/^### 修改配置档$/;"	function	line:25
+gogs	/Users/Jimmy/Workplace/git/myDockerFile/images/gogs/docker-compose.yml	/^gogs:$/;"	function	line:1
+restart	/Users/Jimmy/Workplace/git/myDockerFile/images/gogs/docker-compose.yml	/^    restart: always$/;"	function	line:2
+image	/Users/Jimmy/Workplace/git/myDockerFile/images/gogs/docker-compose.yml	/^    image: gogs\/gogs:latest$/;"	function	line:3
+port	/Users/Jimmy/Workplace/git/myDockerFile/images/gogs/docker-compose.yml	/^    port:$/;"	function	line:4
+volumes	/Users/Jimmy/Workplace/git/myDockerFile/images/gogs/docker-compose.yml	/^    volumes:$/;"	function	line:7
+maraidb	/Users/Jimmy/Workplace/git/myDockerFile/images/mariadb/docker-compose.yml	/^maraidb:$/;"	function	line:1
+image	/Users/Jimmy/Workplace/git/myDockerFile/images/mariadb/docker-compose.yml	/^    image: 'mariadb:latest'$/;"	function	line:2
+expose	/Users/Jimmy/Workplace/git/myDockerFile/images/mariadb/docker-compose.yml	/^    expose: '3306:3306'$/;"	function	line:3
+hostname	/Users/Jimmy/Workplace/git/myDockerFile/images/mariadb/docker-compose.yml	/^    hostname: 'mysql'$/;"	function	line:4
+environment	/Users/Jimmy/Workplace/git/myDockerFile/images/mariadb/docker-compose.yml	/^    environment:$/;"	function	line:5
+redmine	/Users/Jimmy/Workplace/git/myDockerFile/images/redmine/docker-compose.yml	/^redmine:$/;"	function	line:1
+environment	/Users/Jimmy/Workplace/git/myDockerFile/images/redmine/docker-compose.yml	/^  environment:$/;"	function	line:2
+expose	/Users/Jimmy/Workplace/git/myDockerFile/images/redmine/docker-compose.yml	/^  expose:$/;"	function	line:21
+image	/Users/Jimmy/Workplace/git/myDockerFile/images/redmine/docker-compose.yml	/^  image: 'sameersbn\/redmine:3.2.1-6'$/;"	function	line:23
+labels	/Users/Jimmy/Workplace/git/myDockerFile/images/redmine/docker-compose.yml	/^  labels:$/;"	function	line:24
+restart	/Users/Jimmy/Workplace/git/myDockerFile/images/redmine/docker-compose.yml	/^  restart: always$/;"	function	line:27
+volumes	/Users/Jimmy/Workplace/git/myDockerFile/images/redmine/docker-compose.yml	/^  volumes:$/;"	function	line:28
+registry	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^registry:$/;"	function	line:1
+restart	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^  restart: always$/;"	function	line:2
+image	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^  image: registry:2$/;"	function	line:3
+ports	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^  ports:$/;"	function	line:4
+environment	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^  environment:$/;"	function	line:6
+REGISTRY_HTTP_TLS_CERTIFICATE	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^    REGISTRY_HTTP_TLS_CERTIFICATE: \/certs\/domain.crt$/;"	function	line:7
+REGISTRY_HTTP_TLS_KEY	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^    REGISTRY_HTTP_TLS_KEY: \/certs\/domain.key$/;"	function	line:8
+REGISTRY_AUTH	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^    REGISTRY_AUTH: htpasswd$/;"	function	line:9
+REGISTRY_AUTH_HTPASSWD_PATH	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^    REGISTRY_AUTH_HTPASSWD_PATH: \/auth\/htpasswd$/;"	function	line:10
+REGISTRY_AUTH_HTPASSWD_REALM	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^    REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm$/;"	function	line:11
+volumes	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^  volumes:$/;"	function	line:12
+commond	/Users/Jimmy/Workplace/git/myDockerFile/images/registry/docker-compose.yml	/^  commond:$/;"	function	line:16
+myDockerFile	/Users/Jimmy/Workplace/git/myDockerFile/README.md	/^# myDockerFile/;"	function	line:1
+shwarebg	/Users/Jimmy/Workplace/git/myDockerFile/shwarebg/README.md	/^#shwarebg$/;"	function	line:1
